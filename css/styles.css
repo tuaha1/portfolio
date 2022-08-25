@@ -1,0 +1,138 @@
+body {
+  margin: 0%;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  /* display: block; */
+  z-index: 4000;
+  text-align: center;
+  font-size: 20px;
+}
+
+.menu-list {
+  margin: 5px;
+  padding: 15px;
+}
+
+.menu-list a {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  display: inline;
+  font-size: larger;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.main-content {
+  background-color: black;
+  height: auto;
+}
+
+.main-context {
+  color: white;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.main-content h2 {
+  padding-top: 25px;
+}
+
+/* Skill Section*/
+
+.skill-holder {
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.skill-holder h1 {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.skill-section {
+  border: 1px solid grey;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  padding: 50px;
+  width: 250px;
+  vertical-align: top;
+}
+
+.skill-section ul {
+  padding: 0px;
+}
+
+.skill-text {
+  text-align: left;
+  font-size: larger;
+  margin-top: 10px;
+}
+
+.skill-star-count {
+  position: relative;
+  float: right;
+}
+
+.checked {
+  color: orange;
+}
+
+/* contact */
+
+.contact {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.contact h3 {
+  text-align: left;
+}
+
+.contact-input-fields {
+  display: inline-block;
+  text-align: left;
+}
+
+.contact-input {
+  display: inline-block;
+  margin: 5px;
+}
+
+.contact-textarea {
+  width: 100%;
+  margin: 5px;
+  display: inline-block;
+  text-align: left;
+}
+
+.text-area {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.text-area label {
+  margin-left: 5px;
+}
+
+.contact-textarea textarea {
+  resize: none;
+  width: 99%;
+  padding: 0%;
+  margin: 0%;
+  position: right;
+}
