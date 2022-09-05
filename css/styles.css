@@ -1,3 +1,14 @@
+/* Navigation Section */
+
+.nav-item {
+  padding: 0 40px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #49b685;
+}
+
+/* Hero Section */
+
 .container-bg {
   padding: 4% 15%;
 }
@@ -20,28 +31,16 @@
   width: 100%;
 }
 
-@media (min-width: 1465px) {
-  .container-bg h1 {
-    text-align: left;
-    font-size: 4.5em;
-  }
-  .container-bg p {
-    text-align: left;
-  }
+.prime-buttons button {
+  margin-right: 10px;
 }
 
-@media (max-width: 900px) {
-  .container-bg h1 {
-    /* font-size: 1em; */
-  }
+.prime-buttons button:hover {
+  color: white;
+  background-color: white;
 }
 
-.nav-item {
-  padding: 0 37px;
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #4c5b60;
-}
+/* Skill Section */
 
 .skills-section {
   background-color: white;
@@ -60,8 +59,12 @@
 
 .skill-description {
   padding: 5%;
-  background-color: #5ae4a8;
+  background-color: #49b685;
   height: 400px;
+}
+
+.skill-row {
+  padding: 0 10px;
 }
 
 .skills {
@@ -70,14 +73,18 @@
   border-radius: 5px;
   background-color: white;
   position: relative;
-  bottom: 100px;
+  bottom: 150px;
   margin: 0% 10%;
   height: auto;
 }
 
+/* Project Section */
+
 .projects {
   text-align: center;
 }
+
+/* Contact Section */
 
 .contact {
   padding: 5% 15%;
@@ -120,4 +127,31 @@
 .footer {
   height: 500px;
   background-color: #5ae4a8;
+}
+
+/* Responsive Design Section */
+
+@media (min-width: 1465px) {
+  .container-bg h1 {
+    text-align: left;
+    font-size: 4.5em;
+  }
+  .container-bg p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 900px) {
+  .container-bg p {
+    font-size: 1.3em;
+  }
+  .prime-buttons {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
 }
