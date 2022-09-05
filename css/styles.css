@@ -3,18 +3,26 @@
 }
 
 .container-bg h1 {
+  font-weight: bold;
   padding-top: 10%;
   font-size: 2em;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container-bg p {
   font-size: 1.5em;
   padding: 0% 10% 0% 0%;
+  text-align: center;
 }
 
 @media (min-width: 1465px) {
   .container-bg h1 {
+    text-align: left;
     font-size: 4.5em;
+  }
+  .container-bg p {
+    text-align: left;
   }
 }
 
