@@ -16,6 +16,10 @@
   text-align: center;
 }
 
+.container-bg img {
+  width: 100%;
+}
+
 @media (min-width: 1465px) {
   .container-bg h1 {
     text-align: left;
@@ -27,8 +31,8 @@
 }
 
 @media (max-width: 900px) {
-  .container-bg img {
-    width: 100%;
+  .container-bg h1 {
+    /* font-size: 1em; */
   }
 }
 
