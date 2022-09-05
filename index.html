@@ -5,226 +5,219 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- font awesome link url -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- CSS only -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat&family=Roboto&family=Sacramento&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
     />
-    <title>Document</title>
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+
+    <title>Taha</title>
   </head>
   <body>
-    <header>
-      <ul class="menu-list">
-        <a href=""> About </a>
-        <a href="work.html"> Work </a>
-        <a href="#skills-section"> Skills </a>
-        <a href> Contact </a>
-      </ul>
-    </header>
+    <nav class="navbar navbar-expand-md navbar-light bg-white p-3">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="main-content">
-      <div class="main-context">
-        <h1>I'm Taha</h1>
-        <h2>
-          Hello there! this is my little corner on the internet. Iam a web
-          developer. I enjoy creating things that focus on usefulness and
-          elegance. The web can sometimes be indistinguishable from magic, but I
-          have the knowledge and patience required to make just about anything.
-        </h2>
+      <div
+        class="collapse navbar-collapse justify-content-start"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <ul class="navbar-nav justify-content-end">
+          <li>
+            <a class="nav-item"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+          </li>
+          <li>
+            <a class="nav-item"><i class="fa-brands fa-github fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-bg">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>
+            Hi, I'm Taha. <br />
+            A Programmer.
+          </h1>
+          <br />
+          <p>
+            I’m also a front-end developer and general doodler with a keen eye
+            for creating engaging UI, bringing products to life.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="https://img.freepik.com/free-vector/developer-activity-concept-illustration_114360-2801.jpg?w=826&t=st=1662207294~exp=1662207894~hmac=8798f818950ace5728fb9961a8d7bb67a6138688c368475136cab96a1e4ad420"
+            alt=""
+          />
+        </div>
       </div>
     </div>
 
-    <div id="skills-section" class="skill-holder">
-      <h1>Skills</h1>
+    <div class="skills-section">
+      <div class="skill-description">
+        <h1>Hi, I’m Matt. Nice to meet you.</h1>
+        <p>
+          Since beginning my journey as a freelance designer over 11 years ago,
+          I've done remote work for agencies, consulted for startups, and
+          collaborated with talented people to create digital products for both
+          business and consumer use. I'm quietly confident, naturally curious,
+          and perpetually working on improving my chops one design problem at a
+          time.
+        </p>
+      </div>
 
-      <center>
-        <div class="skill-section">
-          <h1>Language</h1>
-
-          <div class="skill-text">
-            HTML
-            <div class="skill-star-count">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-            </div>
+      <div class="skills">
+        <div class="row">
+          <div class="col-lg-4">
+            <i class="fa-solid fa-terminal fa-2x circle-icon"></i>
+            <h1>Language</h1>
+            <br />
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+            <p>C#</p>
+            <p>Python</p>
+            <p>C++</p>
           </div>
+          <div class="col-lg-4 column-section">
+            <i class="fa-solid fa-microchip fa-2x circle-icon"></i>
+            <h1>Technology</h1>
+            <br />
 
-          <div class="skill-text">
-            CSS
-            <div class="skill-star-count">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-            </div>
+            <p>Unity</p>
+            <p>Unreal</p>
+            <p>libgdx</p>
+            <p>Mongodb</p>
+            <p>Node js</p>
           </div>
+          <div class="col-lg-4 column-section">
+            <i class="fa-solid fa-screwdriver fa-2x circle-icon"></i>
+            <h1>Tools</h1>
+            <br />
 
-          <div class="skill-text">
-            Javascript
-            <div class="skill-star-count">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-            </div>
-          </div>
-
-          <div class="skill-text">
-            C++
-            <div class="skill-star-count">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-            </div>
-          </div>
-
-          <div class="skill-text">
-            C#
-            <div class="skill-star-count">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-            </div>
+            <p>Canva</p>
+            <p>Wodpress</p>
+            <p>Github</p>
+            <p>HTML</p>
+            <p>HTML</p>
+            <p>HTML</p>
           </div>
         </div>
-
-        <div class="skill-section">
-          <h1>Softwares</h1>
-
-          <div class="skill-text">
-            Unity Engine
-            <div class="skill-star-count">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-            </div>
-          </div>
-
-          <div class="skill-text">
-            Blender
-            <div class="skill-star-count">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-            </div>
-          </div>
-
-          <div class="skill-text">
-            Javascript
-            <div class="skill-star-count">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-            </div>
-          </div>
-
-          <div class="skill-text">
-            C++
-            <div class="skill-star-count">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-            </div>
-          </div>
-        </div>
-
-        <div class="skill-section">
-          <h1>Tools</h1>
-
-          <div class="skill-text">
-            Git
-            <div class="skill-star-count">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-            </div>
-          </div>
-
-          <div class="skill-text">
-            Linux
-            <div class="skill-star-count">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-            </div>
-          </div>
-
-          <div class="skill-text">
-            Canva
-            <div class="skill-star-count">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-            </div>
-          </div>
-
-          <div class="skill-text">
-            Wordpress
-            <div class="skill-star-count">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-            </div>
-          </div>
-        </div>
-      </center>
+      </div>
     </div>
 
-    <!-- <div>
-      <center>
-        <form action="results.html" method="GET">
-          <div class="contact">
-            <h3>Contact Me</h3>
-            <div class="contact-input-fields">
-              <div class="contact-input">
-                <label>name</label> <br />
-                <input size="40" type="text" />
+    <div class="projects">
+      <h1>Projects</h1>
+      <div class="row">
+        <div
+          class="col-lg-4"
+          style="height: 400px; background-color: blueviolet"
+        ></div>
+        <div
+          class="col-lg-4"
+          style="height: 400px; background-color: aqua"
+        ></div>
+        <div
+          class="col-lg-4"
+          style="height: 400px; background-color: red"
+        ></div>
+      </div>
+      <div class="row">
+        <div
+          class="col-lg-4"
+          style="height: 400px; background-color: cornsilk"
+        ></div>
+        <div
+          class="col-lg-4"
+          style="height: 400px; background-color: darkkhaki"
+        ></div>
+        <div
+          class="col-lg-4"
+          style="height: 400px; background-color: darkgreen"
+        ></div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Contact Me</h1>
+        </div>
+        <div class="col-lg-6">
+          <div class="form-section">
+            <div class="row">
+              <div class="col-lg-6">
+                <label>Name </label>
+                <input type="text" />
               </div>
-              <div class="contact-input">
-                <label>email</label> <br />
-                <input size="40" type="text" />
+              <div class="col-lg-6">
+                <label>Email </label>
+                <input type="text" />
               </div>
             </div>
-            <br />
-            <div class="contact-textarea">
-              <label>message</label> <br />
-              <textarea rows="10" cols="30"></textarea>
+            <div>
+              <label>Enter your message</label>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
             </div>
-            <button>submit</button>
+            <button class="btn btn-secondary">Send Message</button>
           </div>
-        </form>
-      </center>
-    </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="footer"></div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
