@@ -89,8 +89,6 @@
   border-radius: 5px;
   background-color: white;
   position: relative;
-  bottom: 150px;
-  margin: 0% 10%;
   height: auto;
 }
 
@@ -113,12 +111,15 @@
 
 .projects {
   text-align: center;
-  background-color: #5ae4a8;
-  padding: 2% 10%;
+  padding: 0% 10% 5% 10%;
+  background-color: #49b685;
+  font-weight: bold;
 }
 
 .projects h1 {
-  padding: 1% 0%;
+  padding: 30px 0px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 /* Contact Section */
@@ -162,8 +163,13 @@
 }
 
 .footer {
-  height: 500px;
+  text-align: center;
   background-color: #5ae4a8;
+  padding: 1%;
+}
+
+.footer p {
+  padding-top: 2%;
 }
 
 /* Responsive Design Section */
