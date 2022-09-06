@@ -24,7 +24,6 @@
 .container-bg h1 {
   font-weight: bold;
   padding-top: 10%;
-  font-size: 2em;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
@@ -67,24 +66,12 @@
   /* height: 400px; */
 }
 
-.column-section h1 {
-  padding-top: 15px;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
-}
-
-.apply-border {
-  border-right: solid 1px #d5f7e6;
-  border-left: solid 1px #d5f7e6;
-}
-
 .skill-row {
   padding: 0 10px;
 }
 
 .skills {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  padding: 5% 0%;
   border: solid 1px #d5f7e6;
   border-radius: 5px;
   background-color: white;
@@ -107,19 +94,47 @@
   float: right;
 }
 
+.column-section h1 {
+  padding-top: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.apply-border {
+  border-right: solid 1px #d5f7e6;
+  border-left: solid 1px #d5f7e6;
+}
+
 /* Project Section */
 
 .projects {
   text-align: center;
   padding: 0% 10% 5% 10%;
-  background-color: #49b685;
+  background-color: white;
   font-weight: bold;
 }
 
 .projects h1 {
-  padding: 30px 0px;
+  padding-top: 30px;
   font-family: "Montserrat", sans-serif;
-  color: white;
+  color: #363636;
+  font-size: 3em;
+}
+
+.projects h2 {
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  color: black;
+  font-weight: 300;
+}
+
+.project-item {
+  padding: 10px 0;
+}
+
+.project-item img {
+  border-radius: 10px;
 }
 
 /* Contact Section */
