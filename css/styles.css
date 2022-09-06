@@ -72,6 +72,7 @@
 
 .skills {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 5% 0;
   border: solid 1px #d5f7e6;
   border-radius: 5px;
   background-color: white;
@@ -192,14 +193,14 @@
 @media (min-width: 1000px) {
   .container-bg h1 {
     text-align: left;
-    font-size: 4.5em;
+    font-size: 4em;
   }
   .container-bg p {
     text-align: left;
   }
 
   .skill-description {
-    padding: 5% 20% 18% 20%;
+    padding: 5% 20% 12% 20%;
     background-color: #49b685;
     height: 370px;
     color: white;
