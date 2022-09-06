@@ -2,9 +2,17 @@
 
 .nav-item {
   padding: 0 40px;
-  font-size: 1.2em;
+}
+
+.nav-item a {
+  font-size: 1.1em;
   font-weight: bold;
-  color: #49b685;
+}
+
+.nav-brand a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: black;
 }
 
 /* Hero Section */
@@ -47,10 +55,6 @@
   text-align: center;
 }
 
-.column-section {
-  border-left: solid 1px #d5f7e6;
-}
-
 .circle-icon {
   background: #5ae4a8;
   padding: 15px;
@@ -58,9 +62,20 @@
 }
 
 .skill-description {
-  padding: 5%;
+  padding: 5% 20% 0% 20%;
   background-color: #49b685;
-  height: 400px;
+  /* height: 400px; */
+}
+
+.column-section h1 {
+  padding-top: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.apply-border {
+  border-right: solid 1px #d5f7e6;
+  border-left: solid 1px #d5f7e6;
 }
 
 .skill-row {
@@ -68,6 +83,7 @@
 }
 
 .skills {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   padding: 5% 0%;
   border: solid 1px #d5f7e6;
   border-radius: 5px;
@@ -78,10 +94,31 @@
   height: auto;
 }
 
+.skill-item {
+  padding: 0% 20%;
+  text-align: left;
+}
+
+.skill-name {
+  display: inline-block;
+}
+
+.skill-rate {
+  display: inline;
+  text-align: right;
+  float: right;
+}
+
 /* Project Section */
 
 .projects {
   text-align: center;
+  background-color: #5ae4a8;
+  padding: 2% 10%;
+}
+
+.projects h1 {
+  padding: 1% 0%;
 }
 
 /* Contact Section */
@@ -131,13 +168,35 @@
 
 /* Responsive Design Section */
 
-@media (min-width: 1465px) {
+@media (min-width: 1000px) {
   .container-bg h1 {
     text-align: left;
     font-size: 4.5em;
   }
   .container-bg p {
     text-align: left;
+  }
+
+  .skill-description {
+    padding: 5% 20% 18% 20%;
+    background-color: #49b685;
+    height: 370px;
+    color: white;
+    font-family: "Montserrat-black", sans-serif;
+  }
+
+  .skill-description h2 {
+    font-size: 2.5em;
+  }
+
+  .skills {
+    border: solid 1px #d5f7e6;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    bottom: 150px;
+    margin: 0% 10%;
+    height: auto;
   }
 }
 
@@ -153,5 +212,36 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 850px) {
+  .skill-description {
+    padding: 8% 8% 0% 8%;
+    background-color: #49b685;
+    height: 370px;
+    color: white;
+    font-family: "Montserrat-black", sans-serif;
+  }
+
+  .skills {
+    border: solid 1px #d5f7e6;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    bottom: 150px;
+    margin: 0% 10%;
+    height: auto;
+  }
+
+  .skill-item {
+    padding: 0% 10%;
+    text-align: left;
+  }
+
+  .column-section {
+    padding: 10% 0%;
+  }
+
+  .apply-border {
+    border-top: solid 1px #d5f7e6;
+    border-bottom: solid 1px #d5f7e6;
+  }
 }
