@@ -1,10 +1,11 @@
 /* Navigation Section */
 
 .nav-item {
-  padding: 0 40px;
+  padding: 0 60px;
 }
 
 .nav-item a {
+  padding-top: 5px;
   font-size: 1.1em;
   font-weight: bold;
 }
@@ -23,15 +24,24 @@
 
 .container-bg h1 {
   font-weight: bold;
+  font-size: 3rem;
   padding-top: 10%;
-  text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 
 .container-bg p {
   font-size: 1.5em;
   padding: 0% 10% 0% 0%;
-  text-align: center;
+  /* text-align: left; */
+}
+
+.container-bg button {
+  margin-top: 10px;
+}
+
+.container-bg button a {
+  text-decoration: none;
+  color: white;
 }
 
 .container-bg img {
@@ -49,35 +59,46 @@
 
 /* Skill Section */
 
+.skill-description {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 10%;
+  background-color: #49b685;
+  padding-bottom: 14rem;
+}
+
+.description-text-holder {
+  margin: 5% 5%;
+}
+
+.description-text-holder h2 {
+  color: white;
+  font-size: 1.6em;
+  line-height: 1.5;
+}
+
 .skills-section {
   background-color: white;
   text-align: center;
+  position: relative;
+  margin: 0% 12%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  border-radius: 5px;
+}
+
+.skill-container {
+  position: relative;
+  margin-top: -14rem;
+}
+
+.column-container {
+  padding: 5% 0%;
 }
 
 .circle-icon {
   background: #5ae4a8;
   padding: 15px;
   border-radius: 50%;
-}
-
-.skill-description {
-  padding: 5% 20% 0% 20%;
-  background-color: #49b685;
-  /* height: 400px; */
-}
-
-.skill-row {
-  padding: 0 10px;
-}
-
-.skills {
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  padding: 5% 0;
-  border: solid 1px #d5f7e6;
-  border-radius: 5px;
-  background-color: white;
-  position: relative;
-  height: auto;
 }
 
 .skill-item {
@@ -89,27 +110,22 @@
   display: inline-block;
 }
 
+.skill-name p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
 .skill-rate {
   display: inline;
   text-align: right;
   float: right;
 }
 
-.column-section h1 {
-  padding-top: 15px;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
-}
-
-.apply-border {
-  border-right: solid 1px #d5f7e6;
-  border-left: solid 1px #d5f7e6;
-}
-
 /* Project Section */
 
 .projects {
   text-align: center;
+  margin-top: 5%;
   padding: 0% 10% 5% 10%;
   background-color: white;
   font-weight: bold;
@@ -190,67 +206,29 @@
 
 /* Responsive Design Section */
 
-@media (min-width: 1000px) {
-  .container-bg h1 {
-    text-align: left;
-    font-size: 4em;
-  }
-  .container-bg p {
-    text-align: left;
-  }
-
-  .skill-description {
-    padding: 5% 20% 12% 20%;
-    background-color: #49b685;
-    height: 370px;
-    color: white;
-    font-family: "Montserrat-black", sans-serif;
-  }
-
-  .skill-description h2 {
-    font-size: 2.5em;
-  }
-
-  .skills {
-    border: solid 1px #d5f7e6;
-    border-radius: 5px;
-    background-color: white;
-    position: relative;
-    bottom: 150px;
-    margin: 0% 10%;
-    height: auto;
-  }
-}
-
-@media (max-width: 900px) {
-  .container-bg p {
-    font-size: 1.3em;
-  }
-  .prime-buttons {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 10px;
+@media (max-width: 1000px) {
+  .container-bg {
     text-align: center;
   }
-}
-
-@media (max-width: 850px) {
-  .skill-description {
-    padding: 8% 8% 0% 8%;
-    background-color: #49b685;
-    height: 370px;
-    color: white;
-    font-family: "Montserrat-black", sans-serif;
+  .container-bg h1 {
+    padding-top: 10%;
+    margin: 0%;
+    font-size: 1.8rem;
+  }
+  .container-bg p {
+    font-size: 1.2rem;
+    padding: 5px 0px;
+  }
+  .container-bg button {
+    margin: 10px 4px;
+  }
+  .skill-container {
+    padding: 0%;
   }
 
-  .skills {
-    border: solid 1px #d5f7e6;
-    border-radius: 5px;
-    background-color: white;
-    position: relative;
-    bottom: 150px;
-    margin: 0% 10%;
-    height: auto;
+  .skills-section {
+    margin: 0% 5%;
+    padding: 0%;
   }
 
   .skill-item {
@@ -258,12 +236,8 @@
     text-align: left;
   }
 
-  .column-section {
-    padding: 10% 0%;
-  }
-
-  .apply-border {
-    border-top: solid 1px #d5f7e6;
-    border-bottom: solid 1px #d5f7e6;
+  .description-text-holder h2 {
+    font-size: 1.3em;
+    line-height: 1.5;
   }
 }
