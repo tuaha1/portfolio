@@ -81,7 +81,7 @@
   background-color: white;
   text-align: center;
   position: relative;
-  margin: 0% 12%;
+  margin: 0% 10%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
   border-radius: 5px;
 }
@@ -156,48 +156,37 @@
 
 /* Contact Section */
 
-.contact {
-  padding: 5% 15%;
+.contact-section {
+  padding: 2% 2%;
 }
 
-.contact h1 {
-  text-align: left;
+#contact h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
-.contact label {
-  font-size: 1.2rem;
+#contact h2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-.contact input {
-  margin: 5px 0px;
+.contact-form {
+  margin: 2% 0%;
+}
+
+.button-contact {
+  margin: 2% 0%;
   width: 100%;
-  border-radius: 4px;
-  padding: 15px 10px;
-  border-style: none;
-  border: solid 1px #363636;
-  font-size: 25px;
 }
 
-.contact textarea {
-  width: 100%;
-  margin: 5px 0px;
-  resize: none;
-  font-size: 20px;
-  padding: 15px 15px;
-  border-radius: 4px;
-}
-
-.form-section {
-  box-sizing: border-box;
-  padding: 30px;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-}
+/* Footer section */
 
 .footer {
   text-align: center;
   background-color: #5ae4a8;
   padding: 1%;
+  margin-top: 5%;
 }
 
 .footer p {
@@ -210,18 +199,22 @@
   .container-bg {
     text-align: center;
   }
+
   .container-bg h1 {
     padding-top: 10%;
     margin: 0%;
     font-size: 1.8rem;
   }
+
   .container-bg p {
     font-size: 1.2rem;
     padding: 5px 0px;
   }
+
   .container-bg button {
     margin: 10px 4px;
   }
+
   .skill-container {
     padding: 0%;
   }
@@ -239,5 +232,9 @@
   .description-text-holder h2 {
     font-size: 1.3em;
     line-height: 1.5;
+  }
+
+  .contact-inside {
+    padding: 0% 0%;
   }
 }
