@@ -152,6 +152,37 @@
 
 .project-item img {
   border-radius: 10px;
+  border: solid 1px #363636;
+}
+
+.container-project {
+  background-image: url("/images/blog.png");
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container-project img {
+  width: 100%;
+  height: auto;
+}
+
+.container-project:hover button {
+  border: solid 1px #363636;
+  display: block;
+}
+
+.containerButton {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 /* Contact Section */
